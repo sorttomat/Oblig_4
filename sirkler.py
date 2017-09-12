@@ -10,11 +10,11 @@ can = win.canvas()
 #Definerer startverdiene
 teller = 0
 x_pos = 10
-stoerrelse = 50
+stoerrelse = 200
 
 #While-loekken kjorer saalenge teller er mindre enn 9, dvs 9 ganger (0-8).
 #Hver gang tegnes det opp en ny sirkel.
-while teller < 9:
+while teller < 100:
     can.drawOval(x_pos, 100, stoerrelse, stoerrelse)
     #Oeker verdiene:
     x_pos += 10
