@@ -33,4 +33,5 @@ for key in vennerBursdager:
             print("{} har bursdag {}. {} {}".format(key, vennerBursdager[key][0], mndkey, vennerBursdager[key][2]))
 
 
+valg = input("Hva onsker du aa gjore?\n Legg til en film (1)\n Fjern en film (2)\n Oversikt over alle filmer (3)\n Informasjon om en film (4)\n Finn hylleplassering (5)\n Avslutte (6)\n\n\n\n> ")
 

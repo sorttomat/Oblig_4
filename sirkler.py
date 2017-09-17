@@ -14,7 +14,7 @@ stoerrelse = 200
 
 #While-loekken kjorer saalenge teller er mindre enn 9, dvs 9 ganger (0-8).
 #Hver gang tegnes det opp en ny sirkel.
-while teller < 100:
+while teller < 9:
     can.drawOval(x_pos, 100, stoerrelse, stoerrelse)
     #Oeker verdiene:
     x_pos += 10
@@ -23,3 +23,4 @@ while teller < 100:
 
 win.wait()
 
+win = GraphicsWindow(100, 100, 100, 1000)

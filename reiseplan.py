@@ -29,3 +29,4 @@ if 0 <= i1 <= (len(reiseplan)-1) and 0 <= i2 <= (len(reiseplan[i1])-1): #Sjekker
 else:
     print("Ugyldig input.")
 
+valg = input("Hva onsker du aa gjore?\n Legg til en film (1)\n Fjern en film (2)\n Oversikt over alle filmer (3)\n Informasjon om en film (4)\n Finn hylleplassering (5)\n Avslutte (6)\n\n\n\n> ")
