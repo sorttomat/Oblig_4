@@ -71,16 +71,14 @@ def meny():
 def displayFilmhylle(dic):
     """
     Funksjon som viser innholdet paa filmhylla i et eget vindu.
-    Denne har jeg ikke faatt til aa fungere. 
     """
     win = GraphicsWindow(500, 500)
     can = win.canvas()
     y = 0
-    for key in dic:
-        #st = key + dic[key][0] + dic[key][1] + dic[key][2] + dic[key][3]
-        st = "hei" #Testet en enkel string
+    for key in sorted(dic):
+        st = key + "\n" + dic[key][0] + "\n" + dic[key][1] + "\n" + dic[key][2] + "\n" + str(dic[key][3]) + "\n"
         can.drawText(0, y, st)
-        y += 20
+        y += 60
     win.wait()
 
 def filmhylleProgram(dic):
